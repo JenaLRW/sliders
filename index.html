@@ -9,13 +9,25 @@
     </head>
     <body>
         <div class="container">
-            <h3>Filter by Price</h3>
+            <h3>Filter by Income</h3>
 
-            <!--.range-slider -->
+            <!--.range-slider (puts in the number boxes /images/1.png)-->
             <div class="range-slider">
-                <input type="number" class="min-price" value="25" min="1" max="100">
-                <input type="number" class="max-price" value="75" min="1" max="100">
+                <input type="number" class="min-pay" value="50000" min="20000" max="200000" step="500" />
+                <input type="number" class="max-pay" value="100000" min="20000" max="200000" step="500" />
+                <!--.range-->
+                <div class="range">
+                    <input type="range" class="min-input" value="50000" min="20000" max="200000" step="500" />
+                    <input type="range" class="max-input" value="100000" min="20000" max="200000" step="500" />                  
+                    <!--.slider---->
+                    <div class="slider">
+                        <div class="progress"></div>
+                    </div>
+                    <!--/.slider-->
+                </div>
+                <!--/.range-->
             </div>
+            <!--/.range-slider -->
         </div>
     </body>
 </html>
