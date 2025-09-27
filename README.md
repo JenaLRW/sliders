@@ -1,6 +1,6 @@
 # Range Slider
 
-A **price range selector** commonly used in e-commerce platforms to filter products by price.
+A **number range selector** commonly used in e-commerce platforms to filter products by price.  Learning these concepts for a project at https://github.com/dmorton714/CodeYouJobBoard
 
 ### Features Covered
 
